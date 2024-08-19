@@ -1,0 +1,9 @@
+{
+  "short_name": "Cordova React",
+  "name": "Cordova React app",
+  "icons": [
+    
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}
