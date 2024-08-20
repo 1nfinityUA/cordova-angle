@@ -1,5 +1,5 @@
 tets angle app
 
-cordova prepare && npm i
+npm i && cordova prepare
 
 npm run watch to lunch app

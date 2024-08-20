@@ -29,7 +29,7 @@ const Angle = () => {
 
   const motionHandle = useCallback(event => {
     const { x, y, z } = event.accelerationIncludingGravity;
-    const angle1z = Math.atan2(x, Math.sqrt(y * y + z * z)) * (180 / Math.PI);
+    const angle1z = Math.atan2(x, y) * (180 / Math.PI);
     // const angle1y = Math.round(Math.atan2(x, z) * (180 / Math.PI)); // not right
     // const angle1x = Math.round(Math.atan2(z, y) * (180 / Math.PI));
     const angle2z = (Math.atan(x / y) * 180) / Math.PI;
