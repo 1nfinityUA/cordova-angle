@@ -141,14 +141,11 @@
     "platforms": [
       "android"
     ],
-    "plugins": {
-      "cordova-plugin-magnetometer": {}
-    }
+    "plugins": {}
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "autoprefixer": "^10.4.20",
-    "cordova-plugin-magnetometer": "github:sdesalas/cordova-plugin-magnetometer",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10"
   }
